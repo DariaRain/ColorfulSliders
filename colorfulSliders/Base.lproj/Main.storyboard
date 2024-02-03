@@ -17,14 +17,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="H1h-Yb-H5y">
-                                <rect key="frame" x="16" y="77" width="396" height="118"/>
+                                <rect key="frame" x="16" y="63.999999999999986" width="396" height="137.66666666666663"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="118" id="AoP-ip-3DY"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="118" id="AoP-ip-3DY"/>
                                 </constraints>
                             </view>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="27" translatesAutoresizingMaskIntoConstraints="NO" id="joa-wh-4d5">
-                                <rect key="frame" x="16" y="265" width="396" height="160"/>
+                                <rect key="frame" x="16" y="292" width="396" height="160"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="top" spacing="35" translatesAutoresizingMaskIntoConstraints="NO" id="oI9-NC-khT">
                                         <rect key="frame" x="0.0" y="0.0" width="76.666666666666671" height="160"/>
@@ -130,9 +130,9 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="H1h-Yb-H5y" secondAttribute="trailing" constant="16" id="8VY-HD-fK5"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="joa-wh-4d5" secondAttribute="trailing" constant="16" id="JnT-nn-ndA"/>
                             <constraint firstItem="joa-wh-4d5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Sfj-T3-DN2"/>
-                            <constraint firstItem="joa-wh-4d5" firstAttribute="top" secondItem="H1h-Yb-H5y" secondAttribute="bottom" constant="70" id="hbF-sk-eEH"/>
+                            <constraint firstItem="joa-wh-4d5" firstAttribute="top" secondItem="H1h-Yb-H5y" secondAttribute="bottom" multiplier="1.1" constant="70" id="hbF-sk-eEH"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="joa-wh-4d5" secondAttribute="bottom" constant="440" id="jZI-Cg-o9T"/>
-                            <constraint firstItem="H1h-Yb-H5y" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="33" id="rvs-dc-Obe"/>
+                            <constraint firstItem="H1h-Yb-H5y" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="rvs-dc-Obe"/>
                         </constraints>
                     </view>
                     <connections>
